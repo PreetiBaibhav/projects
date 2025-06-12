@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge-3</title>
+    <style>
+        nav{
+            width: 20%;
+            height: 750px;
+            margin: 0;
+            background-color: rgb(114, 112, 112);
+        }
+
+        ul{
+            color: black;
+            list-style-type: none;
+            width: 100%;
+            height: 750px;
+            display: block;
+            display: inline;
+            margin-top: 0% ;
+            text-align: left;
+            
+        }
+        li a{
+            text-decoration: none;
+            display: block;
+            padding: 8px 16px;
+            font-size: 26px;
+            color: black;
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 2px 2px 7px;
+            background-color: rgb(243, 248, 198);
+           
+        }
+        ul :hover{
+            color: white;
+            font-weight: bolder;
+            background-color: rgb(243, 41, 41);
+        
+        }
+        
+        .container{
+            display: flex;
+            flex-direction: column;
+            height: 750px;
+            width: 100%;
+            margin: 0px;
+
+        }
+
+        header,article,footer{
+            font-size: 30px;
+            font-weight: 900;
+            background-color:lightgreen ;
+            border-bottom: 2px solid black;
+            height: 20%;
+            padding: 10px 20px;
+            border: 2px solid black;
+            }
+
+        header{
+            top: 0;
+        }
+        footer{
+            bottom: 0;
+        }
+        article{
+            background-color: rgb(249, 249, 249);
+            height: 50%;
+
+        }
+        .flex-item{
+            display: flex;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex-item">
+        <nav>
+            <ul>
+                <li><a href="#"> Nav</a></li>
+                <li><a href="#"> Home</a></li>
+                <li><a href="#"> Projects</a></li>
+                <li><a href="#"> Contact us</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <header>
+                Header
+            </header>
+            <article>
+                 Artical
+            </article>
+            <footer>
+                Footer
+            </footer>
+    
+        </div>
+    </div>
+
+</body>
+</html>
